@@ -1,4 +1,4 @@
-let mode = 'date'
+let mode = 'full'
 const output = document.getElementById('output')
 const fullBtn = document.getElementById('full')
 const dateBtn = document.getElementById('date')
