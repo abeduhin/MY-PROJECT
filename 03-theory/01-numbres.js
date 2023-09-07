@@ -1,4 +1,4 @@
-let mode = 'full'
+let mode = 'time'
 const output = document.getElementById('output')
 const fullBtn = document.getElementById('full')
 const dateBtn = document.getElementById('date')
@@ -9,6 +9,7 @@ const bindMode = name => {
     mode = name
     update()
  }
+
  }
 
 fullBtn.onclick = bindMode('full')
